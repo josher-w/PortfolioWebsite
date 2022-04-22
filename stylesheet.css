@@ -1,0 +1,139 @@
+header {
+    position: relative;
+
+    width: 100%;
+    height: 4em;
+
+    top: -8px;
+    left: -8px;
+}
+
+@font-face {
+    font-family: 'Another Typewriter';
+    src: url('Assets/atwriter.ttf');
+
+    font-family: 'Edo SZ';
+    src: url('Assets/edosz.ttf');
+
+    font-family: 'Hujan';
+    src: url('Assets/Hujan.ttf');
+}
+
+h1 {
+    font-family: 'Another Typewriter';
+    background-color: black; 
+    font-weight: bolder;
+    color: white;
+    
+    border-style: solid;
+    
+    font-size: 3rem;
+    
+    letter-spacing: 0.15rem;
+
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
+
+    text-align: center;
+  
+    margin: 0.5em;
+}
+
+h2 {
+    font-family: Hujan;
+    font-size: 2.5rem;
+    
+    font-weight: bold;
+    text-align: center;
+
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 1.75rem;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+body {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+
+p {
+    margin: 1em;    
+}
+
+a {
+    color: blue;
+}
+
+article {
+    padding-bottom: 1em;
+}
+
+.game {
+    overflow: hidden;
+
+    position: relative;
+
+    margin: 1em;
+    padding: 1rem;
+
+    border: solid;
+}
+
+.game > p {
+    margin: 0;
+    padding-bottom: 1em;
+
+    width: 45%;
+    height: 80%;
+}
+
+
+.line {
+    margin: 10px;
+    height: 5px;
+    background: repeating-linear-gradient(to right, black 0, black 15px, transparent 15px, transparent 27px)
+    /*5px red then 2px transparent -> repeat this!*/
+}
+
+
+.itchio-embed {
+    margin: 0.5em;
+}
+
+.video {
+    margin: 1em;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    width: 50%;
+}
+
+.game > img {
+    display: block;
+    margin: 1em;
+  
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    width: 50%;
+    height: auto;
+}
+
+.stripe-1 {
+    border: solid;
+    border-color: black;
+    color: white;
+    /*background: repeating-linear-gradient( -45deg, #0066FF, #0066FF 30px, #00C9C6 30px, #00C9C6 60px );*/
+}
