@@ -46,7 +46,8 @@ h4 {
 }
 
 body {
-    color: black;
+    background-color:black;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     font-weight: 500;
@@ -72,6 +73,7 @@ article {
     margin: 1em;
     padding: 1rem;
     border: solid;
+    border-color: white;
 }
 
     .game > p {
