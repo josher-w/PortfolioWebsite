@@ -17,7 +17,6 @@ header {
 
 h1 {
     font-family: 'Another Typewriter';
-    background-color: black;
     font-weight: bolder;
     color: white;
     border-style: solid;
@@ -60,7 +59,7 @@ p {
 }
 
 a {
-    color: blue;
+    font-weight: bold;
 }
 
 article {
@@ -82,14 +81,6 @@ article {
         width: 45%;
         height: 80%;
     }
-
-
-.line {
-    margin: 10px;
-    height: 5px;
-    background: repeating-linear-gradient(to right, black 0, black 15px, transparent 15px, transparent 27px)
-    /*5px red then 2px transparent -> repeat this!*/
-}
 
 
 .itchio-embed {
