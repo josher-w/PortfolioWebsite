@@ -62,7 +62,6 @@ p {
 }
 
 a {
-    /*font-weight: bold;*/
     color: inherit;
     text-decoration: none;
     font-style: italic;
@@ -92,6 +91,15 @@ article {
         height: 80%;
     }
 
+    .game > img {
+        display: block;
+        margin: 1em;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50%;
+        height: auto;
+    }
 
 .itchio-embed {
     margin: 0.5em;
@@ -105,19 +113,3 @@ article {
     width: 50%;
 }
 
-.game > img {
-    display: block;
-    margin: 1em;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 50%;
-    height: auto;
-}
-
-.stripe-1 {
-    border: solid;
-    border-color: black;
-    color: white;
-    /*background: repeating-linear-gradient( -45deg, #0066FF, #0066FF 30px, #00C9C6 30px, #00C9C6 60px );*/
-}
